@@ -1,0 +1,63 @@
+:root {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #B2BEB5;
+  font-size: 1rem; 
+}
+
+p {
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#info-title {
+  font-size: 1.25em;
+}
+  
+#img-div {
+  max-width: 80%;
+  margin: auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; 
+}
+  
+#img-caption {
+  margin: 2.5vh auto auto auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.85em;
+}
+  
+#tribute-info {
+  margin: auto;
+  max-width: 80%;
+  font-size: 0.85em;
+}
+
+@media (min-width: 20rem) {
+  main {
+    font-size: calc( 1rem + (1.5 - 1) * ( (100vw - 20rem) / ( 100 - 20)));
+  }
+}
+
+@media (min-width: 100rem) {
+  main {
+    font-size: 1.5rem;
+  }
+}
+
+
