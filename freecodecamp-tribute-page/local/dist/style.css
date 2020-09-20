@@ -19,9 +19,7 @@ p {
   text-align: center;
 }
 
-#info-title {
-  font-size: 1.25em;
-}
+
   
 #img-div {
   max-width: 80%;
@@ -43,7 +41,11 @@ p {
   font-weight: bold;
   font-size: 0.85em;
 }
-  
+
+#info-title {
+  font-size: 1.25em;
+}
+
 #tribute-info {
   margin: auto;
   max-width: 80%;
