@@ -24,6 +24,8 @@ p {
   margin: auto;
 }
 
+/*need to ensure image stays centered whilst resizing*/
+
 #image {
   display: block;
   width: auto;
