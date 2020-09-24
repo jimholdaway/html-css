@@ -19,20 +19,26 @@ p {
   text-align: center;
 }
 
-#info-title {
-  font-size: 1.25em;
-}
-  
 #img-div {
   max-width: 80%;
   margin: auto;
 }
 
+.content_wrapper {
+  display: flex;
+}
+
+.content {
+  height: 60vh;
+  flex-grow: 1;
+  text-align: center;
+}
+
 #image {
-  display: block;
+  max-height: 100%;
   max-width: 100%;
-  height: auto;
-  border-radius: 15px; 
+  object-fit: cover;
+  border-radius: 1em;
 }
   
 #img-caption {
@@ -41,12 +47,22 @@ p {
   font-weight: bold;
   font-size: 0.85em;
 }
-  
+
+#info-title {
+  font-size: 1.25em;
+}
+
 #tribute-info {
   margin: auto;
   max-width: 80%;
   font-size: 0.85em;
 }
+
+/*
+Fluid typography adapted from https://www.madebymike.com.au/writing/fluid-type-calc-examples/
+
+Units rem used to ensure that browser set font-size determines sizes
+*/
 
 @media (min-width: 20rem) {
   main {
@@ -59,5 +75,3 @@ p {
     font-size: 1.5rem;
   }
 }
-
-

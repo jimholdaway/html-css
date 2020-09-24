@@ -24,8 +24,6 @@ p {
   margin: auto;
 }
 
-/*need to ensure image stays centered whilst resizing*/
-
 #image {
   display: block;
   width: auto;
@@ -51,6 +49,12 @@ p {
   max-width: 80%;
   font-size: 0.85em;
 }
+
+/*
+Fluid typography adapted from https://www.madebymike.com.au/writing/fluid-type-calc-examples/
+
+Units rem used to ensure that browser set font-size determines sizes
+*/
 
 @media (min-width: 20rem) {
   main {
