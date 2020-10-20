@@ -14,35 +14,29 @@ p {
   text-align: center;
 }
 
+li {
+  margin: 0.2em auto auto auto;
+}
+
 #title {
   font-size: 2.5em;
   text-align: center;
 }
 
 #img-div {
-  max-width: 80%;
+  max-width: 50%;
   margin: auto;
 }
 
-.content_wrapper {
-  display: flex;
-}
-
-.content {
-  height: 60vh;
-  flex-grow: 1;
-  text-align: center;
-}
-
 #image {
-  max-height: 100%;
+  display: block;
   max-width: 100%;
-  object-fit: cover;
-  border-radius: 1em;
+  height: auto;
+  border-radius: 1em; 
 }
   
 #img-caption {
-  margin: 2.5vh auto auto auto;
+  margin: 0.5em auto auto auto;
   text-align: center;
   font-weight: bold;
   font-size: 0.85em;
@@ -56,7 +50,7 @@ p {
   margin: auto;
   max-width: 80%;
   font-size: 0.85em;
-}
+} 
 
 /*
 Fluid typography adapted from https://www.madebymike.com.au/writing/fluid-type-calc-examples/
