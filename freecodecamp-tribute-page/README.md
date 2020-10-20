@@ -26,7 +26,7 @@ The exericise has to satisfy the followiing user stories:
 
 - **User Story #9**: The img element should be centered within its parent element.
 
-### A note about the media queries
+## A note about the media queries
 
 Though not necessary for passing the test by following the user stories, some media queries were included to make the text and image fluid in size in relation to the screen width.
 
@@ -51,6 +51,3 @@ main {
   }
 }
 ```
-
-
-
