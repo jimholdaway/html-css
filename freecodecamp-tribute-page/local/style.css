@@ -26,7 +26,7 @@ li {
 }
 
 #img-div {
-  max-width: 50%;
+  width: 16rem;
   margin: auto;
 }
 
@@ -64,11 +64,17 @@ Units rem used to ensure that browser set font-size determines sizes
 @media (min-width: 20rem) {
   main {
     font-size: calc( 1rem + (1.5 - 1) * ( (100vw - 20rem) / ( 100 - 20)));
+  }
+  #img-div {
+    width: calc( 18rem + (50 - 18) * ( (100vw - 20rem) / ( 100 - 20)));
   } 
 }
 
 @media (min-width: 100rem) {
   main {
     font-size: 1.5rem;
+  }
+  #img-div {
+    width: 50rem;
   }
 }
