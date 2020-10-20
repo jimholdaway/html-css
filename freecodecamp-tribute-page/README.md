@@ -1,6 +1,6 @@
 # Freecodecamp Tribute Page
 
-An example of the Tribute Page exercise for Freecodecamp's responsive web design certification.
+An example of the [Tribute Page exercise](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) for Freecodecamp's responsive web design certification.
 
 It can be viewed online at [codepen.io](https://codepen.io/jimholdaway/pen/wvGNJVK).
 
