@@ -21,7 +21,7 @@ li {
 }
 
 #title {
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -64,7 +64,7 @@ Units rem used to ensure that browser set font-size determines sizes
 @media (min-width: 20rem) {
   main {
     font-size: calc( 1rem + (1.5 - 1) * ( (100vw - 20rem) / ( 100 - 20)));
-  }
+  } 
 }
 
 @media (min-width: 100rem) {
