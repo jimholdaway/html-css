@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100%;
 }
 
@@ -39,6 +41,7 @@ li {
   margin: 0.5em auto auto auto;
   text-align: center;
   font-weight: bold;
+  font-style: italic;
   font-size: 0.85em;
 }
 
