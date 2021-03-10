@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main>
+    <div id="title-header">  
+      <h1 id="title">Pet Play Pals Survey Form</h1>
+      <p id="description">Help us improve Pet Play Pals</p>
+    </div>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label> 
+      <input 
+        placeholder="Name"
+        type="text"
+        name="name"
+        id="name"
+        required
+      />
+      <label for="email" id="email-label">Email</label> 
+      <input 
+        placeholder="Email Address"
+        type="email"
+        name="email"
+        id="email"
+        required
+      />
+      <label for="number" id="number-label">Age <i>(optional)</i></label>
+      <input
+        placeholder="Age"
+        type="number"
+        name="age"
+        id="number"
+        class="right"
+        min="18"
+        max="120"
+        step="1"
+      />
+      <label for="pet" id="pet-label">Pet</label>
+      <select name="pet" id="dropdown">
+        <optgroup label="Dogs">
+          <option value="large-dog">Large Dog</option>
+          <option value="medium-dog">Medium Dog</option>
+          <option value="small-dog">Small Dog</option>
+        </optgroup>
+        <optgroup label="Cats">
+          <option value="large-cat">Large Cat</option>
+          <option value="medium-cat">Medium Cat</option>
+          <option value="small-cat">Small Cat</option>
+        </optgroup>
+      </select>
+      <label for="sex" id="sex-label">
+        Is your pet male or female?
+      </label>
+      <label for="sex-male"> 
+        <input id="sex-male" value="male" type="radio" name="sex">Male 
+      </label>
+      <label for="sex-female"> 
+        <input id="sex-female" value="female" type="radio" name="sex">Female 
+      </label>
+      <label for="availability" id="availability-label">
+          When are you mostly available for a pet play date?
+      </label>
+      <label for="before-breakfast"> 
+        <input id="before-breakfast" value="before-breakfast" type="checkbox" name="availability">Before breakfast 
+      </label>
+      <label for="morning"> 
+        <input id="morning" value="morning" type="checkbox" name="availability">Morning 
+      </label>
+      <label for="lunchtime"> 
+        <input id="lunchtime" value="lunchtime" type="checkbox" name="availability">Lunchtime 
+      </label>
+      <label for="afternoon"> 
+        <input id="afternoon" value="afternoon" type="checkbox" name="availability">Afternoon 
+      </label>
+      <label for="dinnertime"> 
+        <input id="dinnertime" value="dinnertime" type="checkbox" name="availability">Dinnertime 
+      </label>
+      <label for="evening"> 
+        <input id="evening" value="evening" type="checkbox" name="availability">Evening 
+      </label>
+      <label for="comments">Do you have any further comments?</label>
+        <textarea id="comments" name="comments" placeholder="Additional comments" rows="6" cols="42"></textarea>
+      <button class="button" type="Submit" id="submit">
+        Submit
+      </button>
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #B2BEB5;
+  font-size: 1rem; 
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  margin: 0.2em auto auto auto;
+}
+
+#title {
+  font-size: 3em;
+  text-align: center;
+}
+
+#img-div {
+  width: 16rem;
+  margin: auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1em; 
+}
+  
+#img-caption {
+  margin: 0.5em auto auto auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.85em;
+}
+
+#info-title {
+  font-size: 1.25em;
+}
+
+#tribute-info {
+  margin: auto;
+  max-width: 80%;
+  font-size: 0.85em;
+} 
+
+/*
+Fluid typography adapted from https://www.madebymike.com.au/writing/fluid-type-calc-examples/
+
+Units rem used to ensure that browser set font-size determines sizes
+*/
+
+@media screen and (min-width: 20rem) {
+  main {
+    font-size: calc( 1rem + (1.5 - 1) * ( (100vw - 20rem) / ( 100 - 20)));
+  }
+  #img-div {
+    width: calc( 18rem + (50 - 18) * ( (100vw - 20rem) / ( 100 - 20)));
+  } 
+}
+
+@media screen and (min-width: 100rem) {
+  main {
+    font-size: 1.5rem;
+  }
+  #img-div {
+    width: 50rem;
+  }
+}
